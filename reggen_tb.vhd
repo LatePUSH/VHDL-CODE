@@ -1,8 +1,8 @@
 -- Banc de test de reggen, registre N bits synchrone sur front montant, asynchrone sur reset.
 -- Testé pour N = 1 et N = 8, les deux tailles utilisées dans cmp8.
 -- Scénario :
---   1) Test du reset asynchrone, output = 0 N bits indépendemment de l'horloge et de l'input
---   2) Test du front montant, output = input après un front montant
+--   1) Test du reset asynchrone, output = 0 N bits indépendemment de l'horloge et de l'input.
+--   2) Test du front montant, output = input après un front montant.
 --   3) Test du front descendant, output retient sa valeur précédente après changement de l'input après un front montant
 
 library ieee;
