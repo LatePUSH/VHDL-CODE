@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
-
+-- good
 entity reggen is
   generic(N : positive := 1);
   port(
